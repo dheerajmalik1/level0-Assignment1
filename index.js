@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 const chalk = require('chalk');
 var score = 0;
 
-console.log(chalk.red('Hi, welcome to the game, Whats your name? \n'));
+console.log(chalk.red.bgGreen('Hi, welcome to the game, Whats your name? \n'));
 var name = readlineSync.question();
 console.log(chalk.blue.bgRed.bold(`\nHi ${name}, welcome to the game, lets start the quiz \n`));
 
